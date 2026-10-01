@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Sign Up</h3>
+    <P>Please fill in this form to create an account:</P>
+    <form action="/signup" method="post">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter password" name="password" required>
+        <label for="repeat-password">Repeat password:</label>
+        <input type="password" placeholder="Repeat password" name="repeat-password" required>
+        <input type="checkbox"> Remember me
+        <br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" naeme="gender" value="other">Other
+<br>
+<span>By creating an account you agree to our <a href="#">Terms and conditions</a> </span>
+<br>
+<button type="cancel">Cancel</button>
+<button type="submit">Sign Up</button>
+</body>
+</html>
