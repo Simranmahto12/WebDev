@@ -6,26 +6,41 @@
     <title>Document</title>
     <style>
         #intro{
-         color: blue;
+         color: blue !important;
+         /* width: 200px;
+          height: 100px;
+         padding: 20px;
+         border: 1px solid black; */
+
         }
         .note{
         color: orange;
         }
         p{
        color: purple;
+       border: 2px solid black;
         }
         h2{
             color:aquamarine;
         }
-        body{
+        /* body{
             background-color: skyblue;
-        }
+        } */
+          .box {
+          width: 200px;
+          height: 100px;
+         padding: 20px;
+         border: 1px solid black;
+         padding:20px;
+         box-sizing:  border-box;
+     
+}
 
     </style>
 </head>
 <body>
     <h1  style=color:purple;>This is my heading</h1>
-    <h2>learning css</h2>
+    <h2  class="box">learning css</h2>
     <!-- id selector makes the color specific here therefore p tag color is not shown in output -->
     <p id="intro" class="note">This is my paragraph</p>
     <p id="intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ex a, ipsam excepturi eligendi necessitatibus repellendus est quam officia 
