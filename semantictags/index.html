@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* *{
+            background-color: rgb(223, 236, 153);
+            margin:-19px; */
+        /* } */
         #intro{
          color: blue !important;
          /* width: 200px;
@@ -13,14 +17,14 @@
          border: 1px solid black; */
 
         }
-        .note{
-        color: orange;
+        p{
+        color: skyblue;
         }
         p{
        color: purple;
        border: 2px solid black;
         }
-        h2{
+        h2 {
             color:aquamarine;
         }
         /* body{
@@ -33,12 +37,38 @@
          border: 1px solid black;
          padding:20px;
          box-sizing:  border-box;
+         
      
+}   
+     div + p  {
+     color: rgb(208, 255, 0);
 }
+   .container{
+    margin: 0 auto;
+    width: 50%;
+    border: 2px double purple;
+
+   }
+
 
     </style>
 </head>
 <body>
+    <div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, delectus?</p>
+        
+            <div>
+                
+                
+                     <strong><p>strong p</p></strong>
+            </div>
+            <span>span</span>
+       
+    </div>
+    <!-- siblings are after parent div and shows changes after div+p -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. I
+                    nventore nisi vero fugiat, iste laboriosam rerum totam!
+                     Rem accusantium aut laudantium saepe, asperiores itaque amet omnis quos nisi tenetur voluptatum cum.</p>
     <h1  style=color:purple;>This is my heading</h1>
     <h2  class="box">learning css</h2>
     <!-- id selector makes the color specific here therefore p tag color is not shown in output -->
@@ -48,6 +78,8 @@
         <p  style=color:black;>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus deleniti doloribus culpa, aut minima aspernatur sed voluptas est 
             impedit accusamus itaque maxime eveniet consequuntur mollitia. Eligendi ea dolores nemo quibusdam?</p>
 
-    
+    <div class="container">
+        <p>Using border style properties</p>
+    </div>
 </body>
 </html>
